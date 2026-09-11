@@ -1,47 +1,41 @@
-# Alica Road Map
+# Alicia Road Map
 
-Roadmap and prototype documentation for the Alice TTS (Text-to-Speech) project.
+[![Python](https://img.shields.io/badge/Python-3.x-3776AB?logo=python&logoColor=white)](https://www.python.org/) [![Project](https://img.shields.io/badge/Status-Experimental-orange)](#status) [![License](https://img.shields.io/badge/License-MIT-green)](#license)
 
-## 🚀 Purpose
+Roadmap and prototype workspace for **Alice**, an experimental text-to-speech project.
 
-This repository contains the development roadmap, prototypes, and experimental features for the Alice TTS project.
+## Purpose
 
-## 📁 Project Structure
+This repository contains early prototypes, experiments, connection/authentication helpers, and development notes around the Alice TTS project.
 
-`
+## Structure
+
+```text
 alicia-road-map/
-├── H.A.N.T.A.py       # Hanta prototype
-├── alice.py            # Alice TTS prototype
-├── classs.py           # Class definitions
-├── connection.py       # Connection handling
-├── login.py            # Authentication
-├── hello_world.py      # Basic example
-├── setup.py            # Installation script
-└── test_images/        # Test assets
-`
+├── H.A.N.T.A.py
+├── alice.py
+├── classs.py
+├── connection.py
+├── login.py
+├── hello_world.py
+├── setup.py
+└── test_images/
+```
 
-## 🚀 Installation
+## Development
 
-`ash
-git clone https://github.com/Notho-freedom/alicia-road-map.git
-cd alicia-road-map
-pip install -r requirements.txt
-`
+The repository is Python-based. The historical README referenced a `requirements.txt`, but that file is not currently present at the repository root, so dependency installation is intentionally not documented here as a verified command.
 
-## 🏃 Running
+For the main prototype, inspect `alice.py` and run it with the Python environment appropriate to the project.
 
-`ash
-python alice.py
-`
+## Status
 
-## 📊 Status
+**Experimental / prototype.** This repository is a development roadmap and sandbox rather than the current production Alice implementation.
 
-Prototype/Exploratory phase. Experimental TTS features.
+## Author
 
-## 👤 Author
+**Ravel Momo** — [@Notho-freedom](https://github.com/Notho-freedom)
 
-[Notho-freedom](https://github.com/Notho-freedom)
-
-## 📄 License
+## License
 
 MIT
